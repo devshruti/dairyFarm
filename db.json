@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "prodIndex": 1,
+      "prodImage": "https://saptamveda.com/cdn/shop/products/AshwagandhaPlainthumbnail.jpg?v=1648782669",
+      "category": "Powder",
+      "prodName": "Ashwagandha",
+      "star": "3",
+      "oldPrice": 121,
+      "newPrice": 54,
+      "body": "Milk atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
+    },
+    {
+      "prodIndex": 2,
+      "prodImage": "https://sharangdhar.com/cdn/shop/products/ashwagandha.jpg?v=1634966548",
+      "category": "Capsule",
+      "prodName": "Turmeric",
+      "star": "4",
+      "oldPrice": 99,
+      "newPrice": 39,
+      "body": "Milk atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
+    },
+    {
+      "prodIndex": 3,
+      "prodImage": "https://oraah.in/cdn/shop/files/Ashwagandha-Powder-_1.jpg?v=1687346530",
+      "category": "Tablet",
+      "prodName": "Neem",
+      "star": "3.5",
+      "oldPrice": 89,
+      "newPrice": 49,
+      "body": "Milk atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
+    },
+    {
+      "prodIndex": 4,
+      "prodImage": "https://bixabotanical.com/cdn/shop/files/Ashwagandha1_1024x1024.jpg?v=1697280416",
+      "category": "Liquid",
+      "prodName": "Brahmi",
+      "star": "5",
+      "oldPrice": 135,
+      "newPrice": 69,
+      "body": "Milk atque\noccaecati deserunt quas accusantium unde odit nobis qui voluptatem\nquia voluptas consequuntur itaque dolor\net qui rerum deleniti ut occaecati"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
