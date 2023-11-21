@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     // <>
       <div class="min-h-full">
-      <nav class="bg-green-600 fixed top-0 left-0 w-full z-50">
+      <nav class="bg-orange-600 fixed top-0 left-0 w-full z-50">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
@@ -23,32 +23,32 @@ const Navbar = () => {
                 <div class="mr-4 ml-24 space-x-4">
                   <a
                     href="/home"
-                    class="text-white font-bold hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
+                    class="text-white font-bold hover:bg-orange-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
                     aria-current="page"
                   >
                     Home
                   </a>
                   <a
                     href="/products"
-                    class="text-white font-bold hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
+                    class="text-white font-bold hover:bg-orange-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
                   >
                      Products
                   </a>
                   <a
                     href="/about"
-                    class="text-white font-bold hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
+                    class="text-white font-bold hover:bg-orange-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
                   >
                     About
                   </a>
                   <a
                     href="/offer"
-                    class="text-white font-bold hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
+                    class="text-white font-bold hover:bg-orange-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
                   >
                     Offers
                   </a>
                   <a
                     href="/cart"
-                    class="text-white font-bold hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
+                    class="text-white font-bold hover:bg-orange-700 hover:text-white rounded-md px-3 py-2 text-base font-medium"
                   >
                     Cart
                   </a>
@@ -59,7 +59,7 @@ const Navbar = () => {
               <div class="ml-4 flex items-center md:ml-6">
                 <button
                   type="button"
-                  class="rounded-full bg-green-500 p-1 text-green-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-500"
+                  class="rounded-full bg-orange-500 p-1 text-orange-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-orange-500"
                 >
                   <span class="sr-only">View notifications</span>
                   <svg
@@ -82,7 +82,7 @@ const Navbar = () => {
                   <div>
                     <button
                       type="button"
-                      class="flex max-w-xs bg-green-100 items-center rounded-full text-base focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-600"
+                      class="flex max-w-xs bg-orange-100 items-center rounded-full text-base focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-orange-600"
                       id="user-menu-button"
                       aria-expanded="false"
                       aria-haspopup="true"
@@ -91,7 +91,7 @@ const Navbar = () => {
                       <span class="sr-only">Open user menu</span>
                       <img
                         class="h-8 w-8 rounded-full"
-                        src="https://www.iconpacks.net/icons/3/free-green-person-icon-10777-thumb.png"
+                        src="https://capstone-sf.com/wp-content/uploads/2016/04/person-icon.png"
                         alt=""
                       />
                     </button>
@@ -110,7 +110,7 @@ const Navbar = () => {
                   >
                     <a
                       href="/profile"
-                      class="block px-4 py-2 text-base text-green-700"
+                      class="block px-4 py-2 text-base text-orange-700"
                       role="menuitem"
                       tabindex="-1"
                       id="user-menu-item-0"
@@ -122,7 +122,7 @@ const Navbar = () => {
                     <hr />
                     <a
                       href="/wallet"
-                      class="block px-4 py-2 text-base text-green-700"
+                      class="block px-4 py-2 text-base text-orange-700"
                       role="menuitem"
                       tabindex="-1"
                       id="user-menu-item-1"
@@ -134,7 +134,7 @@ const Navbar = () => {
                     <hr />
                     <a
                       href="/logout"
-                      class="block px-4 py-2 text-base text-green-700"
+                      class="block px-4 py-2 text-base text-orange-700"
                       role="menuitem"
                       tabindex="-1"
                       id="user-menu-item-2"
@@ -150,7 +150,7 @@ const Navbar = () => {
             <div class="-mr-2 flex md:hidden">
               <button
                 type="button"
-                class="inline-flex items-center justify-center rounded-md bg-green-800 p-2 text-green-400 hover:bg-green-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-800"
+                class="inline-flex items-center justify-center rounded-md bg-orange-800 p-2 text-orange-400 hover:bg-orange-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-orange-800"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
                 onClick={() => setmobilestate(!mobilestate)}
@@ -202,37 +202,37 @@ const Navbar = () => {
           <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
             <a
               href="/Home"
-              class="bg-green-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+              class="bg-orange-900 text-white block rounded-md px-3 py-2 text-base font-medium"
               aria-current="page"
             >
               Home
             </a>
             <a
               href="/products"
-              class="text-white font-bold hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              class="text-white font-bold hover:bg-orange-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
             Products
             </a>
             <a
               href="/about"
-              class="text-white font-bold hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              class="text-white font-bold hover:bg-orange-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
               About
             </a>
             <a
               href="/offer"
-              class="text-white font-bold hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              class="text-white font-bold hover:bg-orange-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
             Offers
             </a>
             <a
               href="/cart"
-              class="text-white font-bold hover:bg-green-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              class="text-white font-bold hover:bg-orange-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
               Cart
             </a>
           </div>
-          <div class="border-t border-green-700 pb-3 pt-4">
+          <div class="border-t border-orange-700 pb-3 pt-4">
             <div class="flex items-center px-5">
               {/* <div class="flex-shrink-0">
                 <img
@@ -245,13 +245,13 @@ const Navbar = () => {
                 <div class="text-base font-medium leading-none text-white">
                   Tom Cook
                 </div>
-                <div class="text-base font-medium leading-none text-green-400">
+                <div class="text-base font-medium leading-none text-orange-400">
                   tom@example.com
                 </div>
               </div> */}
               <button
                 type="button"
-                class="ml-auto flex-shrink-0 rounded-full bg-green-800 p-1 text-green-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-800"
+                class="ml-auto flex-shrink-0 rounded-full bg-orange-800 p-1 text-orange-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-orange-800"
               >
                 <span class="sr-only">View notifications</span>
                 <svg
@@ -273,7 +273,7 @@ const Navbar = () => {
             <div class="mt-3 space-y-1 px-2">
               <a
                 href="/profile"
-                class="block rounded-md px-3 py-2 text-base font-medium text-green-400 hover:bg-green-700 hover:text-white"
+                class="block rounded-md px-3 py-2 text-base font-medium text-orange-400 hover:bg-orange-700 hover:text-white"
               > 
               <span class="flex items-center justify-center text-white">
               <IoPersonOutline class="mr-2" /> Your Profile
@@ -281,7 +281,7 @@ const Navbar = () => {
               </a>
               <a
                 href="/wallet"
-                class="block rounded-md px-3 py-2 text-base font-medium text-green-400 hover:bg-green-700 hover:text-white"
+                class="block rounded-md px-3 py-2 text-base font-medium text-orange-400 hover:bg-orange-700 hover:text-white"
               >
                 <span class="flex items-center justify-center text-white">
               <IoWalletOutline class="mr-2" />Wallet
@@ -289,7 +289,7 @@ const Navbar = () => {
               </a>
               <a
                 href="/logout"
-                class="block rounded-md px-3 py-2 text-base font-medium text-green-400 hover:bg-green-700 hover:text-white"
+                class="block rounded-md px-3 py-2 text-base font-medium text-orange-400 hover:bg-orange-700 hover:text-white"
               >
               <span class="flex items-center justify-center text-white">
               <IoMdLogIn class="mr-2" /> Log in
